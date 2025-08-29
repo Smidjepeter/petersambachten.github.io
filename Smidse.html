@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Smidse 't Veloke</title>
+  <style>
+  @media (max-width: 600px) {
+    header h1 {
+      font-size: 1.8em;
+    }
+
+    .button {
+      display: block;
+      width: 80%;
+      margin: 10px auto;
+      font-size: 1em;
+      padding: 12px;
+    }
+
+    nav {
+      margin: 20px auto;
+    }
+
+    header p {
+      font-size: 1em;
+      padding: 0 10px;
+    }
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    position: relative;
+    z-index: 0;
+  }
+
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('images/smidse/DSC00048 (2).JPG'); /* 🔁 Vervang dit pad door jouw afbeelding */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: blur(8px);
+    z-index: -1;
+  }
+
+  header {
+    background-color: rgba(44, 44, 44, 0.85);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  nav {
+    background-color: rgba(68, 68, 68, 0.85);
+    display: flex;
+    justify-content: center;
+  }
+
+  nav a {
+    color: #fff;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: block;
+  }
+
+  nav a:hover {
+    background-color: #555;
+  }
+
+  section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.85); /* Semi-transparante achtergrond voor leesbaarheid */
+    border-radius: 10px;
+  }
+
+  h2 {
+    color: #2c2c2c;
+  }
+
+  footer {
+    background-color: rgba(44, 44, 44, 0.85);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .workshop {
+    background-color: #f0e6d2;
+    padding: 20px;
+    margin-top: 20px;
+    border-left: 5px solid #b5651d;
+  }
+</style>
+
+</head>
+<body>
+
+  <header>
+    <h1>Smidse 't Veloke</h1>
+    <p>Ambachtelijk smeden sinds 2004</p>
+  </header>
+
+  <nav>
+    <a href="index.htm">Home</a>
+    <a href="#over">Over</a>
+    <a href="#diensten">Diensten</a>
+    <a href="#workshops">Workshops</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h2>Welkom bij Smidse 't Veloke</h2>
+    <p>Een eerbetoon aan mijn nonkel, Joe Deca, verkoper en hersteller van fietsen, bromfietsen en motorfietsen. Hij introduceerde me in de ambachtelijke wereld door me vrijelijk te laten experimenteren met een oud smidsevuur tijdens mijn vakantiejob bij hem.</p>
+    <p>Op mijn verjaardag, 10 augustus 2004, heb ik mijn eigen smidse opgericht in Tienen-Hakendover. Sindsdien is dit een significant deel van mijn leven geworden, waar ik me met hartstocht kan wijden aan de kunst van metaalbewerking.</p>
+  </section>
+
+  <section id="over">
+    <h2>Over de Smidse</h2>
+    <p>Bij Smidse 't Veloke combineren we traditionele smeedtechnieken met moderne creativiteit. Elk stuk dat we maken, vertelt een verhaal van vakmanschap en passie voor het ambacht.</p>
+  </section>
+
+  <section id="diensten">
+    <h2>Diensten</h2>
+    <ul>
+      <li>Smeden van gereedschappen, messen, zwaarden en bijlen</li>
+      <li>Herstellingen van metalen objecten</li>
+      <li>Maatwerk op aanvraag</li>
+    </ul>
+    <p>Voor een offerte of meer informatie, neem gerust contact met ons op.</p>
+  </section>
+
+ <section id="workshops">
+  <h2>Workshops</h2>
+  <div class="workshop">
+    <h3>Basis smeden</h3>
+    <img src="images/smidse/IMG_20210627_172904_818.jpg" alt="Basis workshop" style="width:100%; max-width:400px; display:block; margin:0 auto 10px;">
+
+    <p>Leer de basistechnieken van het smeden in een sessie van 4 of 6 uur. Prijzen: 4 uur - €100, 6 uur - €140.</p>
+  </div>
+  <div class="workshop">
+    <h3>Platte bek tang smeden</h3>
+   <img src="images/smidse/DSC00048 (2).JPG" alt="Tangen smeden" style="width:100%; max-width:400px; display:block; margin:0 auto 10px;">
+
+    <p>Voor beginnende smeden: smeed je eigen tang in 4 uur voor €100.</p>
+  </div>
+  <div class="workshop">
+    <h3>Middeleeuws mes smeden</h3>
+    <img src="images/smidse/IMG20250722154919.jpg" alt="Mes smeden workshop" style="width:100%; max-width:400px; display:block; margin:0 auto 10px;">
+
+    <p>Smeed een mes uit één stuk staal in 4 tot 6 uur. Prijs: €130.</p>
+  </div>
+</section>
+
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p><strong>Adres:</strong> Sint-Truidensesteenweg 418, 3300 Tienen (Hakendover)</p>
+    <p><strong>Telefoon:</strong> +32 487 55 86 08</p>
+    <p><strong>Email:</strong> smidse.t.veloke@gmail.com</p>
+    <p><strong>Openingsuren:</strong></p>
+    <ul>
+      <li>Zaterdag: 10:00 - 18:00</li>
+      <li>Zondag: 10:00 - 18:00</li>
+      <li>Andere dagen: Op afspraak</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Smidse 't Veloke. Alle rechten voorbehouden.</p>
+  </footer>
+
+</body>
+</html>
